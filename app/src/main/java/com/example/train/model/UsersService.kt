@@ -40,7 +40,7 @@ class UsersService {
     fun moveUser(user: Users, moveBy: Int) {
 
         val oldIndex = users.indexOfFirst { it.id == user.id }
-        if (oldIndex != -1) return
+        if (oldIndex == -1) return
         val newIndex = oldIndex + moveBy
         if (newIndex < 0 || newIndex >= users.size) return
         Collections.swap(users, oldIndex, newIndex)

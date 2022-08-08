@@ -5,7 +5,13 @@
 -->
 <data-extraction-rules>
     <cloud-backup>
-        <!-- TODO: Use <include> and <exclude> to control what is backed up.
+        <!-- echo "# train_recyclerview_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Alexandr1246/train_recyclerview_1.git
+ git push - ты главныйTODO: Use <include> and <exclude> to control what is backed up.
         <include .../>
         <exclude .../>
         -->

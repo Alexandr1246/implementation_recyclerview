@@ -2,4 +2,8 @@
     <string name="app_name">train</string>
     <string name="alexandr_shamarin">Alexandr Shamarin</string>
     <string name="example_company">Example company</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="remove">Remove</string>
+
 </resources>
