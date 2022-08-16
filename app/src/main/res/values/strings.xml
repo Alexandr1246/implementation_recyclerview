@@ -5,5 +5,11 @@
     <string name="move_up">Move up</string>
     <string name="move_down">Move down</string>
     <string name="remove">Remove</string>
+    <string name="failed_to_load_users">failed to load users</string>
+    <string name="try_again">try again</string>
+    <string name="no_users">no users</string>
+    <string name="good_day_for_the_play">Good day for the play</string>
+    <string name="delete">Delete</string>
+    <string name="user_has_been_deleted">user has been deleted</string>
 
 </resources>

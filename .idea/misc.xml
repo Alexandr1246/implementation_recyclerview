@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/train/app/src/main/res/layout/15140034397318J1201013100000011410720221514.XML" value="0.371875" />
         <entry key="..\:/AndroidProjects/train/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/AndroidProjects/train/app/src/main/res/layout/fragment_users_details.xml" value="0.30427350427350425" />
+        <entry key="..\:/AndroidProjects/train/app/src/main/res/layout/fragment_users_list.xml" value="0.371875" />
         <entry key="..\:/AndroidProjects/train/app/src/main/res/layout/item_user.xml" value="0.37083333333333335" />
       </map>
     </option>

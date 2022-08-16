@@ -7,3 +7,10 @@ data class Users(
     val photo: String,
     val company: String
 )
+
+data class UserDetails(
+
+    val user: Users,
+    val details: String
+        )
+

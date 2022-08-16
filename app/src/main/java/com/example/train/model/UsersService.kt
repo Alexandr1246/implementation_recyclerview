@@ -1,6 +1,7 @@
 package com.example.train.model
 
-import com.example.train.model.Users
+
+import com.example.train.UserNotFoundException
 import com.github.javafaker.Faker
 import java.util.*
 
@@ -9,7 +10,7 @@ typealias UsersListener = (users: List<Users>) -> Unit
 class UsersService {
 
     private var users = mutableListOf<Users>()
-    private val listeners = mutableSetOf<UsersListener>()
+    private var listeners = mutableSetOf<UsersListener>()
 
     init {
         val faker = Faker.instance()
@@ -46,6 +47,17 @@ class UsersService {
         Collections.swap(users, oldIndex, newIndex)
         notifyChanges()
     }
+
+    fun getById(id:Long): UserDetails{
+        val user = users.firstOrNull { it.id == id }
+            ?: throw UserNotFoundException()
+        return UserDetails(
+            user = user,
+            details = Faker.instance().lorem().paragraphs(3).joinToString ("\n\n")
+        )
+    }
+
+
 
     fun addListener(listener: UsersListener) {
         listeners.add(listener)
